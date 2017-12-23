@@ -186,7 +186,7 @@ public class SelfDrive : MonoBehaviour {
             avoidMultiplyer += 0.5f;
         }
 
-        //正前传感器
+        /**正前传感器
         sensorStartPos += TargetCar.transform.right * frontSideSensorPos ;
         if (avoidMultiplyer == 0f)
         {
@@ -205,7 +205,7 @@ public class SelfDrive : MonoBehaviour {
                 Debug.DrawLine(sensorStartPos, hit.point);
             }
             
-        }
+        }**/
 
         if (avoiding)
         {
